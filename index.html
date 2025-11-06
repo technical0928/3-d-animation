@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Website Create</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body class="bg-black">
+
+    <!-- navbar -->
+    <div class="navbar h-24 w-full flex  items-center justify-between text-white px-8 bg-[rgba(27,27,27,0.9)]">
+        <div>
+            <h1 class="logo font-semibold text-4xl max-md:text-xl">
+                Abdur<span class="text-transparent bg-clip-text bg-gradient-to-r from-[#1FE0A2] to-[#00C9FF]">
+                    Rehman
+                </span> </h1>
+
+        </div>
+
+        <ul class="flex gap-6 max-md:hidden">
+            <li><a href="#home" class="text-2xl hover:text-[#1FE0A2] transition">Home</a></li>
+            <li><a href="#about" class="text-2xl hover:text-[#1FE0A2] transition">About</a></li>
+            <li><a href="#section" class="text-2xl hover:text-[#1FE0A2] transition">Section</a></li>
+            <li><a href="#work" class="text-2xl hover:text-[#1FE0A2] transition">Contact</a></li>
+        </ul>
+
+        <button
+            class="px-6 py-2 max-md:px-xl rounded-full bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] text-black font-semibold hover:scale-105 hover:shadow-[0_4px_25px_rgba(0,255,163,0.6)] transition">
+            Reach Out</button>
+    </div>
+
+    <!-- hero section -->
+    <div id="home" class="hero-section w-full text-white flex flex-col md:flex-row items-center justify-between px-16">
+        <!-- Left Side -->
+        <div class="left-content flex flex-col gap-5 max-w-xl">
+            <h2 class="text-3xl font-semibold">Software Developer</h2>
+
+            <h1 class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1FE0A2] to-[#00C9FF]">
+                Hello, I'm</h1>
+
+            <h1 class="text-6xl font-bold">Abdur Rehman</h1>
+
+            <p class="text-gray-300 leading-relaxed">
+                I turn complex ideas into seamless, high-impact web experiences —
+                building modern, scalable, and lightning-fast applications that make a difference.
+            </p>
+
+            <div class="flex gap-4 mt-4">
+                <button
+                    class="khan px-6 py-3 rounded-full bg-gradient-to-r from-[#00C9FF] to-[#92FE9D] text-white font-semibold shadow-[0_4px_20px_rgba(0,255,163,0.4)] hover:scale-105 hover:shadow-[0_4px_25px_rgba(0,255,163,0.6)] transition ">
+                    View My Work </button>
+                <button
+                    class="khan px-6 py-3 rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition duration-300">
+                    My Resume </button>
+            </div>
+        </div>
+
+        <!-- right side -->
+        <div class="right-content mt-10 md:mt-0">
+            <img src="avator.png" class="w-80  rounded-full shadow-[0_0_80px_20px_rgba(0,255,170,0.3)]" />
+        </div>
+    </div>
+
+    <!-- skills section -->
+    <div class="skills mt-40  ">
+
+        <!-- First protion -->
+        <div
+            class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800 px-6">
+            <div
+                class="max-w-5xl w-full bg-black/60 backdrop-blur-md rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center md:items-start gap-10 text-white shadow-lg">
+
+                <!-- profile picture -->
+                <div
+                    class="profile-pic flex-shrink-0 h-[15rem] w-[15rem] rounded-full overflow-hidden border-4 border-teal-500 shadow-lg">
+                    <img src="myphoto.png" class="h-full w-full object-cover" />
+                </div>
+
+                <!-- profile content -->
+                <div class="profile-content flex-1">
+                    <h1 class="text-3xl md:text-4xl font-bold text-teal-400 mb-2">Abdur Rehman</h1>
+                    <span class="text-lg md:text-xl font-semibold text-gray-300">Frontend Developer</span>
+
+                    <p class="mt-4 text-gray-400 leading-relaxed">
+                        I build scalable, modern applications with a strong focus on clean architecture,
+                        delightful UX and performance. My toolkit spans React, Next.js, TypeScript,
+                        Tailwind CSS, and FastAPI — bringing ideas to life from concept to production
+                        with robust APIs and smooth interfaces.
+                    </p>
+
+                    <!-- skill tags -->
+                    <div class="mt-6 flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-teal-600/20 border border-teal-500 rounded-full text-sm">2+ Years
+                            Experience</span>
+                        <span
+                            class="px-4 py-2 bg-teal-600/20 border border-teal-500 rounded-full text-sm">Frontend</span>
+                        <span class="px-4 py-2 bg-teal-600/20 border border-teal-500 rounded-full text-sm">UI/UX
+                            Focus</span>
+                    </div>
+
+                    <!-- buttons -->
+                    <div class="mt-8 flex gap-4">
+                        <button
+                            class="px-5 py-2 bg-teal-500 hover:bg-teal-600 text-white rounded-lg font-semibold transition">View
+                            Projects</button>
+                        <button
+                            class="px-5 py-2 border border-teal-500 text-teal-400 rounded-lg hover:bg-teal-500 hover:text-white transition">Get
+                            in Touch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end -->
+        <h1 id="about"
+            class="text-transparent bg-clip-text bg-gradient-to-r from-[#1FE0A2] to-[#00C9FF] text-5xl font-semibold flex justify-center mt-6 mb-6 ">
+            My Skills</h1>
+
+        <div
+            class="skills-section bg-gray-800 flex justify-center items-center flex-wrap gap-16 text-[#00f5d4] text-5xl py-6 rounded-lg shadow-[0_0_30px_rgba(0,255,170,0.3)]">
+            <i class="fa-brands fa-node-js icon"></i>
+            <i class="fa-solid fa-database icon"></i>
+            <i class="fa-brands fa-angula icon"></i>
+            <i class="fa-brands fa-java icon"></i>
+            <i class="fa-brands fa-react icon"></i>
+            <i class="fa-brands fa-neos icon"></i>
+            <i class="fa-solid fa-code icon"></i>
+            <i class="fa-solid fa-wind icon"></i>
+            <i class="fa-solid fa-bolt icon"></i>
+            <i class="fa-brands fa-python icon"></i>
+            <i class="fa-brands fa-docker icon"></i>
+        </div>
+    </div>
+
+    <!-- my work -->
+    <div
+        class="my-work max-md:hidden flex justify-center items-center mt-10  h-screen w-ful bg-gradient-to-b from-gray-900 to-black">
+        <div class="bg-picture">
+
+            <h1 class="green text-3xl text-white text-center font-semibold">My Work</h1>
+            <h1 class="boom text-white text-center font-semibold text-5xl"><i>nk studio</i></h1>
+            <img src="img1.JPG" class="p-[100px] z-10 rounded-lg  ">
+
+        </div>
+    </div>
+
+    <!-- people say  -->
+    <div id="section" class="w-full bg-black py-20 px-8 ">
+
+        <h2
+            class="text-5xl font-semibold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-[#1FE0A2] to-[#00C9FF]">
+            What People Say
+        </h2>
+
+        <div class="king max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div
+                class="bg-[#1C1C1C] rounded-2xl p-8 flex flex-col items-center text-center border border-gray-700/50 hover:border-teal-500/50 transition-all duration-300 hover:scale-[1.02]">
+                <img class="w-20 h-20 rounded-full mb-6 object-cover border-2 border-gray-600" src="m1.PNG">
+                alt="Profile of Yash Sah">
+                <p class="text-gray-400 italic mb-6">"Gaurav is a visionary developer. His attention to detail and
+                    creativity blew me away. Our project was a massive success because of him."</p>
+                <div class="mt-auto">
+                    <h4 class="text-white font-semibold text-lg">Yash Sah</h4>
+                    <p class="text-gray-500 text-sm">Software Engineer at HCL</p>
+                </div>
+            </div>
+
+            <div
+                class="bg-[#1C1C1C] rounded-2xl p-8 flex flex-col items-center text-center border border-gray-700/50 hover:border-teal-500/50 transition-all duration-300 hover:scale-[1.02]">
+                <img class="w-20 h-20 rounded-full mb-6 object-cover border-2 border-gray-600" src="w1.PNG">
+                <p class="text-gray-400 italic mb-6">"Working with Gaurav was an absolute pleasure. He brings design and
+                    code together like magic. Highly recommend him."</p>
+                <div class="mt-auto">
+                    <h4 class="text-white font-semibold text-lg">Heather Forster</h4>
+                    <p class="text-gray-500 text-sm">Lead UI/UX Designer</p>
+                </div>
+            </div>
+
+            <div
+                class="bg-[#1C1C1C] rounded-2xl p-8 flex flex-col items-center text-center border border-gray-700/50 hover:border-teal-500/50 transition-all duration-300 hover:scale-[1.02]">
+                <img class="w-20 h-20 rounded-full mb-6 object-cover border-2 border-gray-600" src="m2.PNG">
+                <p class="text-gray-400 italic mb-6">"From concept to execution, Gaurav handled everything flawlessly.
+                    His work ethic and innovation are unmatched."</p>
+                <div class="mt-auto">
+                    <h4 class="text-white font-semibold text-lg">Amy Jacobson</h4>
+                    <p class="text-gray-500 text-sm">Tech Recruiter</p>
+                </div>
+            </div>
+
+            <div
+                class="bg-[#1C1C1C] rounded-2xl p-8 flex flex-col items-center text-center border border-gray-700/50 hover:border-teal-500/50 transition-all duration-300 hover:scale-[1.02]">
+                <img class="w-20 h-20 rounded-full mb-6 object-cover border-2 border-gray-600" src="w2.PNG">
+                <p class="text-gray-400 italic mb-6">"Gaurav transformed our outdated platform into something modern and
+                    powerful. His skills are world-class."</p>
+                <div class="mt-auto">
+                    <h4 class="text-white font-semibold text-lg">Casey Smith</h4>
+                    <p class="text-gray-500 text-sm">CTO at Mermaid Labs</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--login-page -->
+    <div id="work" class="login-page bg-gradient-to-b from-gray-900 to-black flex items-center justify-center">
+        <!-- left page -->
+        <div class="left-page flex items-center justify-center">
+            <img src="Astra.png">
+        </div>
+        <!-- right-page -->
+        <div class="right-page flex items-center justify-center ">
+            <form class="flex flex-col items-center">
+                <h1
+                    class=" text-5xl font-semibold text-center  text-transparent bg-clip-text bg-gradient-to-r from-[#1FE0A2] to-[#00C9FF]">
+                    Login</h1>
+                <input type="text" placeholder="Enter your name">
+                <input type="text" placeholder="Enter your Password">
+                <input type="text" placeholder="Enter your Gender">
+                <input type="text" placeholder="Enter your City">
+                <button class="bg-blue-600 text-white font-semi-bold">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer w-full bg-gradient-to-t from-black via-gray-900 to-transparent text-center py-12">
+        <h2 class="text-4xl font-semibold text-white mb-6">Gaurav Gupta</h2>
+        <!-- icons -->
+        <div class="flex justify-center gap-6 text-gray-400 text-2xl mb-6">
+            <a href="#" class="text-gray-200"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="text-gray-200"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-200 hover:text-red-500"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-gray-200"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="text-gray-400 italic mb-4">
+            "Success is when preparation meets opportunity"
+        </p>
+        <p class="text-gray-500 text-sm">
+            © 2025 Gaurav Gupta. All rights reserved.</p>
+
+
+
+
+
+
+</body>
+
+</html>
